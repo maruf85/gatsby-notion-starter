@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Notion TypeScript Starter
+  Gatsby Notion Starter
 </h1>
 
 ## 🚀 Quick start
@@ -20,7 +20,7 @@
     ```shell
     npm run develop
     ```
-    
+
     Open http://localhost:8000 to view it in the browser.
 
 4.  **GraphQL playground**
@@ -36,7 +36,7 @@
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-## 🚀 Quick start (Netlify)
+## 🚀 Quick Deployment (Netlify)
 
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 

@@ -1,6 +1,7 @@
 import type { GatsbyConfig } from "gatsby"
+
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env`,
 })
 
 const config: GatsbyConfig = {
@@ -24,8 +25,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-source-notion-api`,
       options: {
-        token: process.env.NOTION_SECRET,
-        databaseId: process.env.NOTION_DATABASE_ID,
+        token: process.env.GATSBY_NOTION_SECRET,
+        databaseId: process.env.GATSBY_NOTION_DATABASE_ID,
         propsToFrontmatter: true,
         lowerTitleLevel: true,
       },
